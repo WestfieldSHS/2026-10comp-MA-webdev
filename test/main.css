@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+img{
+    width: 25%;
+    height: 40%;
+}
+p{
+    background-color: black;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwqXybfMcUSVRh1U3aDw2-1CIhSL5oWbTOg&s);
+}
