@@ -9,10 +9,6 @@ h2{
     color: tomato;
     font-family:'Black Ops One';
 }
-img{
-    width: 25%;
-    height: 40%;
-}
 p{
     color: tomato;
     text-align: center;
@@ -48,5 +44,5 @@ p{
 }
 
 .nav-links a:hover {
-  color: #04AA6D; 
+  color: rgb(87, 87, 87); 
 }
