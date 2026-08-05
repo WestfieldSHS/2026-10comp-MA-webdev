@@ -12,7 +12,8 @@ h2{
 p{
     color: tomato;
     text-align: center;
-    font-family:'Black Ops One'
+    font-family:'Black Ops One';
+    padding-bottom: 80px;
 }
 .navbar {
   display: flex;
@@ -79,9 +80,22 @@ div.gallery-item div.desc {
   width: 100%;
   background-color: tomato;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 h6 {
   font-size: 18px;
 }
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+}
 
+div.flex-container > div {
+  margin: 10px;
+}
+
+@media screen and (max-width:600px) {
+  div.flex-container {
+    flex-direction: column;
+  }
+}
