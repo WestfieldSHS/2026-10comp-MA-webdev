@@ -78,8 +78,8 @@ div.gallery-item div.desc {
   position: static;
   left: 0;
   bottom: 0;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   width: 100%;
   background-color: tomato;
   color: white;
@@ -130,4 +130,24 @@ body {
 }
 div.main-content {
   text-align:  left;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  background-color: DodgerBlue;
+}
+.flex-container div{
+  font-size: 20px;
+  font-family: 'Black Ops One';
+  flex-flow: nowrap;
+  flex-direction: row;
+}
+h3{
+  text-align: center;
+  color: tomato;
+  
+}
+h4{
+  color: tomato;
 }
