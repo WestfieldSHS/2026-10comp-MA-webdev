@@ -119,7 +119,7 @@ body {
 }
 .container {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: rgb(87, 87, 87);
 }
 
 .container div {
@@ -131,11 +131,17 @@ body {
 div.main-content {
   text-align:  left;
 }
+
+.main-content {
+width: 100%;
+text-align: center;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
   flex-flow: nowrap;
-  background-color: DodgerBlue;
+  background-color: rgb(87, 87, 87);
 }
 .flex-container div{
   font-size: 20px;
@@ -150,6 +156,7 @@ h3{
 }
 h4{
   color: tomato;
+  padding-bottom: 50;
 }
 * {
 box-sizing: border-box;
@@ -241,19 +248,19 @@ z-index: 1;
 }
 
 .equipment {
-background: linear-gradient(135deg, #444, #111);
+background: linear-gradient(135deg, TOMATO, #111);
 }
 
 .training {
-background: linear-gradient(135deg, #777, #222);
+background: linear-gradient(135deg, TOMATO, #222);
 }
 
 .fitness {
-background: linear-gradient(135deg, #555, #111);
+background: linear-gradient(135deg, tomato, #111);
 }
 
 .sauna {
-background: linear-gradient(135deg, #8b4b32, #222);
+background: linear-gradient(135deg, TOMATO, #222);
 }
 
 .service-card h4 {
@@ -267,23 +274,10 @@ color: #555;
 }
 
 @media (max-width: 800px) {
-
 }
-.navbar {
-flex-direction: column;
-gap: 15px;
-}
-
-.nav-links {
-gap: 15px;
-flex-wrap: wrap;
-justify-content: center;
-}
-
 .services-container {
 flex-direction: column;
 }
-
 .service-card {
 width: 100%;
 }
