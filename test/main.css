@@ -52,7 +52,7 @@ p{
 div.gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 div.gallery-item {
@@ -86,6 +86,7 @@ div.gallery-item div.desc {
   background-color: tomato;
   color: white;
   text-align: center;
+  font-family: 'Black Ops One';
 }
 h6 {
   font-size: 18px;
@@ -123,10 +124,23 @@ body {
 .container {
   display: flex;
   background-color: rgb(87, 87, 87);
+  justify-content: center;
 }
+.price{
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+}
+.price div{
+  padding: 15px;
+  margin: 10px;
+  background-color: whitesmoke;
+  font-size: 30px;
+  font-family: 'Black Ops One';
 
+}
 .container div {
-  background-color: #f1f1f1;
+  background-color: whitesmoke;
   margin: 10px;
   padding: 5px;
   font-size: 30px;
@@ -162,6 +176,7 @@ h3{
 h4{
   color: tomato;
   padding-bottom: 50;
+  font-family: 'Black Ops One';
 }
 * {
 box-sizing: border-box;
@@ -286,4 +301,7 @@ flex-direction: column;
 .service-card {
 width: 100%;
 }
-
+img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
